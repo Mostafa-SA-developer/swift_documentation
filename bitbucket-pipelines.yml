@@ -10,4 +10,4 @@ pipelines:
             - pip install mkdocs
             - pip install mkdocs-material
             - mkdocs build
-            - cp -r site site
+            - cp -r site/* site
