@@ -1,0 +1,37 @@
+site_name: Swift Portal
+theme:
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.path
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+  palette:
+    primary: white
+  
+
+
+
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+
+
+
+
+
+
+nav:
+  - Home: 'index.md'
+  - Installtion:
+    - 'Download Swift Project': 'setup_project\Installtion.md'
+    - 'Running Swift Project': 'setup_project\run_project.md'
+  - Git:
+    - 'Working With Git': 'github\workingwithgit.md'  
+
