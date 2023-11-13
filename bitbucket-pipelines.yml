@@ -10,3 +10,4 @@ pipelines:
             - pip install mkdocs
             - pip install mkdocs-material
             - mkdocs build
+            - cp -r site/* $BITBUCKET_PIPELINES_OUTPUT_DIR
